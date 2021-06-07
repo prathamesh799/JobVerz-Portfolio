@@ -1,9 +1,9 @@
 # **Jobverz**
-Jobverz is a project by **Multiverse** company. Jobverz is a web application oriented towards reskilling and upskilling users. It's focussed to service Governments, Training organizations and Users who are looking to enhance or change their career. 
+Jobverz is a project by **Multiverz** company. It is a web application oriented towards reskilling and upskilling users. It's focussed to service Governments, Training organizations and Users who are looking to enhance or change their career. <br />
 In this 8-week project we aim to develop a **Minimum Viable Product (MVP)**.
 
 # **Skills Taxonomy**
-Our team is responsible to create an unified schema from different data sources such as ONET, SkillsFuture, EMSI to map skills with job titles. 
+Our team is responsible to create an unified schema from different data sources such as ONET, SkillsFuture, EMSI to map skills with job titles. <br />
 This data would be saved in an organized manner in S3 buckets and we provided API to access this data by other teams. This would be displayed on front-end.
 
 ---
@@ -40,8 +40,8 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 - In order to provide access to Skills Taxonomy data to Engineering team and Integration team we created an API. 
 - Amazon S3 buckets were used to store data related to skills and ONET unified schema.
 - As part of this sprint we created 2 API calls. 
-&nbsp;&nbsp; 1. To retrieve all job titles present in Skills Taxonomy.
-&nbsp;&nbsp; 2. A POST method to get skills related to a particular job title.
+  - 1. To retrieve all job titles present in Skills Taxonomy.
+  - 2. A POST method to get skills related to a particular job title.
 
 #### Technologies used
 1. Amazon S3: To store data
