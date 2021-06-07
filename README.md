@@ -2,7 +2,7 @@
 ### Jobverz is a project by **Multiverse** company. Jobverz is a web application oriented towards reskilling and upskilling users. It's focussed to service Governments, Training organizations and Users who are looking to enhance or change their career. 
 ### In this 8-week project we aim to develop a **Minimum Viable Product (MVP)**.
 
-## **Skills Taxonomy**
+# **Skills Taxonomy**
 ### Our team is responsible to create an unified schema from different data sources such as ONET, SkillsFuture, EMSI to map skills with job titles. 
 ### This data would be saved in an organized manner in S3 buckets and we provided API to access this data by other teams. This would be displayed on front-end.
 
