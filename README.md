@@ -10,7 +10,7 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 
 ## **Our work throughout the project.**
 
-### Sprint-1: Fetch skills from MOOC's
+### **Sprint-1: Fetch skills from MOOC's**
 
 ![image](https://user-images.githubusercontent.com/72140261/121016847-3dd2c600-c7ba-11eb-8a69-a9e38dedf2ee.png)
 
@@ -23,7 +23,7 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 #### Technologies used
 1. Selenium to scrape data from webistes.
 
-### Sprint-2: Create a unified schema for ONET database
+### **Sprint-2: Create a unified schema for ONET database**
 
 ![image](https://user-images.githubusercontent.com/72140261/121005164-25a87a00-c7ad-11eb-87f9-7f4c92d88206.png)
 
@@ -35,7 +35,7 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 1. Jupyter Notebooks
 2. Pandas, Numpy for data processing
 
-### Sprint-3: Provided API access for Skills Taxonomy data
+### **Sprint-3: Provided API access for Skills Taxonomy data**
 ![image](https://user-images.githubusercontent.com/72140261/121008732-f136bd00-c7b0-11eb-87e7-cdac5232eafd.png)
 
 - In order to provide access to Skills Taxonomy data to Engineering team and Integration team we created an API. 
@@ -49,7 +49,7 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 2. Amazon API Gateway: To process incoming requests
 3. Lambda: To define API calls
 
-### Sprint-4: Applied string matching algorithms on job titles
+### **Sprint-4: Applied string matching algorithms on job titles**
 ![image](https://user-images.githubusercontent.com/72140261/121017638-20eac280-c7bb-11eb-8e85-7d6d347f9aac.png)
 
 - As job postings tend to have various titles referring to same job title. We had to map aggregated job titles with Skill taxonomy job titles, as job title in Skills Taxonomy have skills mapped to them. 
@@ -61,7 +61,7 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 1. Jupyter Notebooks
 2. Machine Learning(Transfer learning)
 
-### Sprint-5: Improved accuracy of BERT model by preprocessing aggregated job titles
+### **Sprint-5: Improved accuracy of BERT model by preprocessing aggregated job titles**
 - Created a unified schema for Nesta database. 
   - A hierarchy was created with first layer with 6 broad clusters of skills; split into 35 groups, and then split to give 143 clusters of specific skills.
   - Each of the approximately 10,500 skills lives within one of these 143 skill groups.
