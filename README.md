@@ -40,8 +40,8 @@ This data would be saved in an organized manner in S3 buckets and we provided AP
 - In order to provide access to Skills Taxonomy data to Engineering team and Integration team we created an API. 
 - Amazon S3 buckets were used to store data related to skills and ONET unified schema.
 - As part of this sprint we created 2 API calls. 
-  - 1. To retrieve all job titles present in Skills Taxonomy.
-  - 2. A POST method to get skills related to a particular job title.
+  1. To retrieve all job titles present in Skills Taxonomy.
+  2. A POST method to get skills related to a particular job title.
 
 #### Technologies used
 1. Amazon S3: To store data
