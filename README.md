@@ -1,9 +1,11 @@
 # **Jobverz**
-Jobverz is a product by **Multiverz**. It is a web and mobile application with a focus of empowering users to reskill and upskill the users. It services users who are looking to enhance or change their career. Jobverz provides the user with personal recommendations about skills to pursue and available career opportunities along with learning paths.<br />
+Jobverz is a product by **Multiverz**. It is a web and mobile application with a focus of empowering users to reskill and upskill the users. It services users who are looking looking for a job or enhance their skills or change their career. Jobverz provides the user with personal recommendations about skills to pursue and available career opportunities along with learning paths.<br/>
 
 # **Skills Taxonomy**
-Our team is responsible to create a Skills Taxonomy by combining data from different data sources such as ONET, SkillsFuture, EMSI to map skills with job titles. <br />
-This data would be saved in an organized manner in S3 buckets and we provided API to access this data by other teams. This would be displayed on front-end.
+A skill taxonomy is intended to organize the skills into a hierarchy. A taxonomy  should essentially connects skills to each other so as you move from role to role we have a relatively intelligent view about the skills that you need to become familiar with to get a new job.
+
+Our team worked on developing a skill taxonomy by combining skills data from different data sources such as ONET, SkillsFuture, Nesta, and EMSI.  <br/>
+This data would be saved in an organized manner in S3 buckets and API access is provided to other teams.<br/>
 
 ---
 
