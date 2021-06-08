@@ -1,6 +1,5 @@
 # **Jobverz**
 Jobverz is a product by **Multiverz**. It is a web and mobile application with a focus of empowering users to reskill and upskill the users. It services users who are looking to enhance or change their career. Jobverz provides the user with personal recommendations about skills to pursue and available career opportunities along with learning paths.<br />
-In this 8-week project we aim to develop a **Minimum Viable Product (MVP)**.
 
 # **Skills Taxonomy**
 Our team is responsible to create a Skills Taxonomy by combining data from different data sources such as ONET, SkillsFuture, EMSI to map skills with job titles. <br />
