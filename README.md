@@ -24,6 +24,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 #### Technologies used
 1. Selenium to scrape data from webistes.
 
+---
+
 ### **Sprint-2: Create a unified schema for ONET database**
 
 ![image](https://user-images.githubusercontent.com/72140261/121005164-25a87a00-c7ad-11eb-87f9-7f4c92d88206.png)
@@ -35,6 +37,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 #### Technologies used
 1. Jupyter Notebooks
 2. Pandas, Numpy for data processing
+
+---
 
 ### **Sprint-3: Provided API access for Skills Taxonomy data**
 ![image](https://user-images.githubusercontent.com/72140261/121008732-f136bd00-c7b0-11eb-87e7-cdac5232eafd.png)
@@ -50,6 +54,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 2. Amazon API Gateway: To process incoming requests
 3. Lambda: To define API calls
 
+---
+
 ### **Sprint-4: Applied string matching algorithms on job titles**
 ![image](https://user-images.githubusercontent.com/72140261/121017638-20eac280-c7bb-11eb-8e85-7d6d347f9aac.png)
 
@@ -62,6 +68,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 1. Jupyter Notebooks
 2. Machine Learning(Transfer learning)
 
+---
+
 ### **Sprint-5: Improved accuracy of BERT model by preprocessing aggregated job titles**
 - Created a unified schema for Nesta database. 
   - A hierarchy was created with first layer with 6 broad clusters of skills; split into 35 groups, and then split to give 143 clusters of specific skills.
@@ -70,6 +78,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 - **Manually preprocessed aggregated job titles** and applied **BERT** model, this improved accuracy. Thus proving that unless manual preprocessing is done accuaracy can't be improved beyond **74%**. We also identified that the patterns were not uniform enough to perform preprocessing programatically.
 <br />
 
+---
+
 ### **Sprint-6: Mapped EMSI skills with job titles**
 ![image](https://user-images.githubusercontent.com/72140261/122725639-d6754580-d292-11eb-894e-da3e63456200.png)
 - We had studied 4 data sources so far- ONET, SkillsFuture, Nesta and EMSI. 
@@ -77,6 +87,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 - As EMSI's data was based on realtime job postings we tried all possible ways of getting the data. We finally resorted to exploiting a data leak in EMSI's skills web pages. We were able to create a mapping of skills and job titles in this way. 
 - Excluding EMSI data for now as it was obtained by unethical ways, we combined the data of **ONET and SkillsFuture** to create a unified schema for Skills Taxonomy. 
 <br />
+
+---
 
 ### **Sprint-7: Rule based algorithm to clean job titles**
 ![image](https://user-images.githubusercontent.com/72140261/122726983-2bfe2200-d294-11eb-89a0-8fc892662947.png)
