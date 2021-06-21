@@ -19,7 +19,7 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 - To collect skills for developing our skills taxonomy, we scraped skills from courses in MOOC sites like Coursera, LinkedIn Learning, and Udacity from Data Science domain.
 - I specifically worked on LinkedIn Learning courses. We extracted all skills related to Data Science domain. 
 - We also extracted data from learning paths provided in LinkedIn Learning platform. 
-- This data was stored in JSON format.
+- This data was stored in JSON format in S3 buckets.
 
 #### Technologies used
 1. Selenium to scrape data from webistes.
@@ -54,8 +54,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 ![image](https://user-images.githubusercontent.com/72140261/121017638-20eac280-c7bb-11eb-8e85-7d6d347f9aac.png)
 
 - As job postings tend to have various titles referring to same job title. We had to map aggregated job titles with Skill taxonomy job titles, as job title in Skills Taxonomy have skills mapped to them. 
-- Explored various string matching algorithms such as Token set ratio, Token sort, Partial ratio, Normal ratio from PolyFuzz library.
-- Finally we used Google's BERT model, as it considers semantic meaning of words rather than string similarity. 
+- Explored various *string matching algorithms* such as Token set ratio, Token sort, Partial ratio, Normal ratio from PolyFuzz library.
+- Finally we used **Google's BERT model**, as it considers semantic *meaning of words* rather than string similarity. 
 - We achieved 74% accuracy in matching an aggregated job title with a job title present in Skills Taxonomy with BERT model. 
 
 #### Technologies used
@@ -67,15 +67,15 @@ This data would be saved in an organized manner in S3 buckets and API access is 
   - A hierarchy was created with first layer with 6 broad clusters of skills; split into 35 groups, and then split to give 143 clusters of specific skills.
   - Each of the approximately 10,500 skills lives within one of these 143 skill groups.
 - Explored public API's and EMSI API to get alternate titles for job titles.
-- Manually preprocessed aggregated job titles and applied BERT model, this improved accuracy. Thus proving that unless manual preprocessing is done accuaracy can't be improved beyond 74%. We also identified that the patterns were not uniform enough to perform preprocessing programatically.
+- **Manually preprocessed aggregated job titles** and applied **BERT** model, this improved accuracy. Thus proving that unless manual preprocessing is done accuaracy can't be improved beyond **74%**. We also identified that the patterns were not uniform enough to perform preprocessing programatically.
 <br />
 
 ### **Sprint-6: Mapped EMSI skills with job titles**
 ![image](https://user-images.githubusercontent.com/72140261/122725639-d6754580-d292-11eb-894e-da3e63456200.png)
 - We had studied 4 data sources so far- ONET, SkillsFuture, Nesta and EMSI. 
-- With EMSI, we had 2 separate datasets of job titles and skills, without any mapping between them. 
+- With EMSI, we had **2 separate datasets** of job titles and skills, without any mapping between them. 
 - As EMSI's data was based on realtime job postings we tried all possible ways of getting the data. We finally resorted to exploiting a data leak in EMSI's skills web pages. We were able to create a mapping of skills and job titles in this way. 
-- Excluding EMSI data for now as it was obtained by unethical ways, we combined the data of ONET and SkillsFuture to create a unified schema for Skills Taxonomy. 
+- Excluding EMSI data for now as it was obtained by unethical ways, we combined the data of **ONET and SkillsFuture** to create a unified schema for Skills Taxonomy. 
 <br />
 
 ### **Sprint-7: Rule based algorithm to clean job titles**
@@ -86,8 +86,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 - **ESCO**: ESCO works as a dictionary, describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training. 
   - The skills are diverse for a specific job title, hence cannot include it in Skills Taxonomy.
 - **Matching aggregated titles with EMSI job titles**
-  - Previously we applied BERT model to map manually cleaned aggregated job titles and got an accuracy of 74%. 
+  - Previously we applied BERT model to map **manually cleaned aggregated job titles** and got an accuracy of **74%**. 
   - As EMSI's job titles resemble real time job postings we attempted to apply BERT model to match aggregated job titles with them.
   - We created a few rules for each company to preprocess the job titles. 
-  - We applied BERT model to match aggregated job titles pre-processed by a rule based algorithm to EMSI titles and achieved a 90% accuracy. 
+  - We applied BERT model to match aggregated job titles **pre-processed by a rule based algorithm** to EMSI titles and achieved a **90%** accuracy. 
   - Hence, we now can accurately retrieve all skills related to any job title from job postings with a 90% accuracy. 
