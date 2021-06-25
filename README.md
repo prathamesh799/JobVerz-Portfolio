@@ -87,7 +87,6 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 
 ![image](https://user-images.githubusercontent.com/72140261/123368082-c2825a00-d598-11eb-9460-938e22fae314.png)
 
-
 - We had studied 4 data sources so far- ONET, SkillsFuture, Nesta and EMSI. 
 - With EMSI, we had **2 separate datasets** of job titles and skills, without any mapping between them. 
 - As EMSI's data was based on realtime job postings we tried all possible ways of getting the data. We finally resorted to exploiting a data leak in EMSI's skills web pages. We were able to create a mapping of skills and job titles in this way. 
@@ -116,6 +115,7 @@ This data would be saved in an organized manner in S3 buckets and API access is 
   - Hence, we we have nomalized titles from job postings with titles in Skills Taxonomy with a 90% accuracy. 
 <br />
 ---
+
 ### **Sprint-8: Enhancing the Rule based algorithm**
 - As we got promising results by applying rule based algorithm in previous sprint. 
 - We defined rules for the aggregated titles of 56 companies. 
