@@ -69,7 +69,6 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 2. Machine Learning(Transfer learning)
 
 ---
-![image](https://user-images.githubusercontent.com/72140261/123365594-2d7d6200-d594-11eb-82b2-6fd6e6b5f92e.png)
 ### **Sprint-5: Improved accuracy of BERT model by preprocessing aggregated job titles**
 - Created a unified schema for Nesta database. 
   - A hierarchy was created with first layer with 6 broad clusters of skills; split into 35 groups, and then split to give 143 clusters of specific skills.
@@ -84,7 +83,6 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 <br />
 
 ---
-![image](https://user-images.githubusercontent.com/72140261/123362861-fa849f80-d58e-11eb-9124-68fa6be69ba0.png)
 ### **Sprint-6: Mapped EMSI skills with job titles**
 
 ![image](https://user-images.githubusercontent.com/72140261/123368082-c2825a00-d598-11eb-9460-938e22fae314.png)
@@ -96,14 +94,14 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 - **Unified Schema**
   - Excluding EMSI data for now as it was obtained by unethical ways, we combined the data of **ONET and SkillsFuture** to create a unified schema for Skills Taxonomy. 
   - We included an attribute of 'Parent Name' which acts as occupation hierarchy of a particular job title. 
+  - For more data sources to be added we need SME's to verify and classify data of other taxonomies to suit our schema.
 <br />
 
 ---
-![image](https://user-images.githubusercontent.com/72140261/123363118-77b01480-d58f-11eb-9f4a-4cbcf11b06f7.png)
+
 ### **Sprint-7: Rule based algorithm to clean job titles**
 
 ![image](https://user-images.githubusercontent.com/72140261/123368725-f3af5a00-d599-11eb-9c12-b0553d3411af.png)
-
 
 - We explored NSDC, and ESCO data to consider for Skills Taxonomy. 
 - **NSDC**: NSDC was set up as part of a national skill development mission to fulfil the growing need in India for skilled manpower and narrow the existing gap between the demand and supply of skills.
@@ -117,8 +115,8 @@ This data would be saved in an organized manner in S3 buckets and API access is 
   - We applied BERT model to match aggregated job titles pre-processed by a **Rule based algorithm** to EMSI titles and achieved a **90%** accuracy. 
   - Hence, we we have nomalized titles from job postings with titles in Skills Taxonomy with a 90% accuracy. 
 <br />
-
-### **Sprint-8: Enhanicng Rule based algorithm**
+---
+### **Sprint-8: Enhancing the Rule based algorithm**
 - As we got promising results by applying rule based algorithm in previous sprint. 
 - We defined rules for the aggregated titles of 56 companies. 
 - Applied BERT models to match the preprocessed titles. 
