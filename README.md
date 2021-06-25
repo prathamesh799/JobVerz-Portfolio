@@ -114,9 +114,10 @@ This data would be saved in an organized manner in S3 buckets and API access is 
   - We applied BERT model to match aggregated job titles pre-processed by a **Rule based algorithm** to EMSI titles and achieved a **90%** accuracy. 
   - Hence, we we have nomalized titles from job postings with titles in Skills Taxonomy with a 90% accuracy. 
 <br />
+
 ---
 
 ### **Sprint-8: Enhancing the Rule based algorithm**
 - As we got promising results by applying rule based algorithm in previous sprint. 
-- We defined rules for the aggregated titles of 56 companies. 
+- We defined rules for the aggregated titles of **56 companies**. 
 - Applied BERT models to match the preprocessed titles. 
