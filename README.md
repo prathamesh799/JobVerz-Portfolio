@@ -82,9 +82,11 @@ This data would be saved in an organized manner in S3 buckets and API access is 
 <br />
 
 ---
-
-### **Sprint-6: Mapped EMSI skills with job titles**
 ![image](https://user-images.githubusercontent.com/72140261/123362861-fa849f80-d58e-11eb-9124-68fa6be69ba0.png)
+### **Sprint-6: Mapped EMSI skills with job titles**
+
+![image](https://user-images.githubusercontent.com/72140261/123368082-c2825a00-d598-11eb-9460-938e22fae314.png)
+
 
 - We had studied 4 data sources so far- ONET, SkillsFuture, Nesta and EMSI. 
 - With EMSI, we had **2 separate datasets** of job titles and skills, without any mapping between them. 
